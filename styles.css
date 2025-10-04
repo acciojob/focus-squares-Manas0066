@@ -3,6 +3,11 @@
   height: 50px;
   display: inline-block;
   margin: 10px;
-  background-color: #E6E6FA; /* lavender */
+  background-color: rgb(230, 230, 250); /* lavender */
   cursor: pointer;
+}
+
+/* Class for other squares on hover */
+.square.brown {
+  background-color: rgb(111, 78, 55); /* matches Cypress test */
 }
